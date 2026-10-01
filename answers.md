@@ -113,9 +113,20 @@ This is due to covariate shift: sequential decision-making breaks the i.i.d. ass
 
 sample-efficient methods push it above 1 because collecting real interactions can be expensive. Instead of wasting collected data after using it once, the agent reuses the same experience multiple times.
 ____
-**Q3.3** ...
+**Q3.3** 
 
-**Q3.4** ...
+A long delay means the actor keeps collecting data with an older version of the policy.
+
+SAC is relatively robust to this because it is off-policy which means it can learn from data collected by older policies stored in the replay buffer.
+
+____
+
+**Q3.4** 
+
+Advantage: Faster and more stable training because fewer parameters need to be learned.
+
+Drawback: The visual features cannot adapt to the specific robot task, so useful task-specific information might be missed.
+
 
 **Q3.5** γ¹⁰⁰ = ... · Implication: ...
 
