@@ -127,11 +127,11 @@ Advantage: Faster and more stable training because fewer parameters need to be l
 
 Drawback: The visual features cannot adapt to the specific robot task, so useful task-specific information might be missed.
 
-
-**Q3.5** γ¹⁰⁰ = ... · Implication: ...
+---
+**Q3.5** γ¹⁰⁰ = 0.048 · Implication: This makes learning difficult with a sparse end-of-task reward: the reward signal becomes very weak when propagated back to early actions.
 
 ---
-
+---
 ## Part 4: HIL-SERL with interventions
 
 ![noHIL vs HIL](runs/plots/GROUP_noHIL_vs_HIL.png)
