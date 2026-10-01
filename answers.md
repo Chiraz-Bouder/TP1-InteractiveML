@@ -90,6 +90,7 @@ Make it more harmful
 1- Unintended Noise and Unsteady Execution 
 
 2- Sub-optimal Actions and Compounding Errors
+
 ---
 **Q2.3** With these 10 demonstrations, we judge that behavioural cloning would work well on states similar to those seen in our demos, however it will fail whith unseen states. 
 
