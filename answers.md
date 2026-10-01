@@ -35,7 +35,7 @@ The raw simulator uses a 7-dimensional continuous action space with values in [-
 
 In contrast, the raw simulator exposes a 7-dimensional continuous action space, with all seven values ranging from \([-1,1]\). The TP wrappers therefore transform the agent's simpler 4-dimensional, end-effector-level commands into the 7-dimensional commands required by the simulator. This gives the RL agent a higher-level control interface instead of requiring it to directly learn the simulator's lower-level 7-dimensional control.
 
-
+---------------------------------------------------------
 
 
 **Q1.2** this approach simplifies the RL because simplifies RL because the agent does not need to learn how to move each joint. It directly says: “move the end-effector by (dx, dy, dz).”
