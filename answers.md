@@ -29,7 +29,11 @@ Replace every `...` with your answer. Insert figures from `runs/plots/` with `![
 | Raouf | 4 | y | 13.0 | Nothing |
 | Raouf | 5 | y | 21.0 | Nothing |
 
-**Q1.1** ...
+**Q1.1** The observation space is a dictionary containing two RGB images, front and wrist, both of size 128×128×3, and an 18-dimensional numerical state vector agent_pos. The normalization ranges suggest that the first values describe the robot end-effector's position and orientation, while the remaining values contain additional robot/environment state variables. The exact semantic meaning of some of these values cannot be determined from the ranges alone.
+
+The raw simulator uses a 7-dimensional continuous action space with values in [-1,1]. However, after the TP's wrappers, the agent sees a 4-dimensional action space: (dx, dy, dz, gripper).where \(dx,dy,dz\) are continuous values in \([-1,1]\) controlling the displacement of the robot's end effector along the three spatial axes. The gripper command ranges from 0 to 2 and controls the gripper.
+
+In contrast, the raw simulator exposes a 7-dimensional continuous action space, with all seven values ranging from \([-1,1]\). The TP wrappers therefore transform the agent's simpler 4-dimensional, end-effector-level commands into the 7-dimensional commands required by the simulator. This gives the RL agent a higher-level control interface instead of requiring it to directly learn the simulator's lower-level 7-dimensional control.
 
 **Q1.2** ...
 
