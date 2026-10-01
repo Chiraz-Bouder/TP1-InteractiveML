@@ -47,10 +47,15 @@ Internally, the robot must:
 2- Send those joint commands to the motors.
 
 3- Execute the movement.
+----------------------------------------------------------------------------
 
-**Q1.3** ...
+**Q1.3** We get a reward when we catch the cube, we get 1 when we catch the cube, otherwise we get 0, the reward is sparse 
 
-**Q1.4** Success rate: ... · Mean time to success: ... s · Hardest phase: ...
+The problem is that we only tell the robot that it did good when it grabs the cube, we don't tell it that it is doing better if it gets closer to the target. So if it never grabbed the object, it will NEVER learn 
+
+--------------------------------------------------------------------
+
+**Q1.4** Success rate: 60% · Mean time to success: 19.7 s · Hardest phase: to grab the cube with the gripper
 
 ---
 
