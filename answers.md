@@ -73,11 +73,23 @@ The problem is that we only tell the robot that it did good when it grabs the cu
 | Durée (s) | 29.9 | 16.9 | 23.0 | 21.6 | 10.4 | 14.6 | 7.3 | 7.3 | 8.8 | 21.4 |
 | Récompense finale | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 
-Episodes recorded: 5 · Successful: ... · Mean length: ... s
+Episodes recorded: 10 · Successful: 9 · Mean length: 16.12 s
 
-**Q2.1** ...
+**Q2.1** Because off-policy algorithms can learn from data collected by another policy, while on-pomicy ones cannot 
 
-**Q2.2** ...
+**Q2.2**
+
+To make it more useful : 
+
+1- Optimal State-Action Alignment
+
+2- Focused State-Space Coverage and Compact Trajectories
+
+Make it more harmful 
+
+1- Unintended Noise and Unsteady Execution 
+
+2- Sub-optimal Actions and Compounding Errors
 
 **Q2.3** ...
 
