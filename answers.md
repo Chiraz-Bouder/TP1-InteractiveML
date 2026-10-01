@@ -1,8 +1,8 @@
 # TP HIL-SERL: report
 
-**Group:** 
-**Students:** 
-**Date:** 
+**Group:** 03
+**Students:** BOUDER Chiraz, BRAHIMI Ines, KESSOUAR Abderraouf Tarek
+**Date:** 01/10/2026
 **Device used (from `check_setup.py`):** cuda / mps / cpu — GPU model if any:
 
 Replace every `...` with your answer. Insert figures from `runs/plots/` with `![caption](runs/plots/<file>.png)`. Keep the report under 6 pages when exported to PDF.
