@@ -18,16 +18,16 @@ Replace every `...` with your answer. Insert figures from `runs/plots/` with `![
 
 | Operator | Attempt | Success (y/n) | Time (s) | What went wrong |
 | --- | --- | --- | --- | --- |
-| | 1 | | | |
-| | 2 | | | |
-| | 3 | | | |
-| | 4 | | | |
-| | 5 | | | |
-| | 1 | | | |
-| | 2 | | | |
-| | 3 | | | |
-| | 4 | | | |
-| | 5 | | | |
+| Ines | 1 | y | 13.1 | Nothing |
+| Ines | 2 | y | 27.8| Nothing |
+| Ines | 3 | n | 6.1 | The gripper was not correctly aligned |
+| Ines | 4 | n | 23.6| The gripper pushed the cube away |
+| Ines | 5 | y | 16.4 | Nothing |
+| Raouf | 1 | y | 26.7 | Nothing |
+| Raouf | 2 | n | 29.9 | Timeout |
+| Raouf | 3 | n | 29.9 | Timeout |
+| Raouf | 4 | y | 13.0 | Nothing |
+| Raouf | 5 | y | 21.0 | Nothing |
 
 **Q1.1** ...
 
