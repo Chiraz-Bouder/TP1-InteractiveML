@@ -10,7 +10,8 @@
 
 Replace every `...` with your answer. Insert figures from `runs/plots/` with `![caption](runs/plots/<file>.png)`. Keep the report under 6 pages when exported to PDF.
 
----
+-----------------------------
+----------------
 
 ## Part 1: Discover the environment
 
@@ -55,10 +56,15 @@ The problem is that we only tell the robot that it did good when it grabs the cu
 
 --------------------------------------------------------------------
 
-**Q1.4** Success rate: 60% · Mean time to success: 19.7 s · Hardest phase: to grab the cube with the gripper
+**Q1.4** 
+· Success rate: 60% 
+
+· Mean time to success: 19.7 s 
+
+· Hardest phase: to grab the cube with the gripper
 
 ---
-
+-----------------
 ## Part 2: Record demonstrations
 
 Episodes recorded: ... · Successful: ... · Mean length: ... s
