@@ -102,10 +102,17 @@ This is due to covariate shift: sequential decision-making breaks the i.i.d. ass
 
 ## Part 3: RL baseline without interventions
 
-**Q3.1** ...
+**Q3.1** α controls the trade-off between exploiting and exploring.
 
-**Q3.2** ...
+α too high: the agent explores too much and behaves randomly instead of exploiting good actions.
+α too low: the agent explores too little and may get stuck in a bad strategy.
 
+---
+
+**Q3.2** utd_ratio = 2 means that for every 1 new environment transition, the algorithm performs 2 training updates.
+
+sample-efficient methods push it above 1 because collecting real interactions can be expensive. Instead of wasting collected data after using it once, the agent reuses the same experience multiple times.
+____
 **Q3.3** ...
 
 **Q3.4** ...
