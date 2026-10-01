@@ -76,7 +76,7 @@ The problem is that we only tell the robot that it did good when it grabs the cu
 Episodes recorded: 10 · Successful: 9 · Mean length: 16.12 s
 
 **Q2.1** Because off-policy algorithms can learn from data collected by another policy, while on-pomicy ones cannot 
-
+---
 **Q2.2**
 
 To make it more useful : 
@@ -90,9 +90,13 @@ Make it more harmful
 1- Unintended Noise and Unsteady Execution 
 
 2- Sub-optimal Actions and Compounding Errors
+---
+**Q2.3** With these 10 demonstrations, we judge that behavioural cloning would work well on states similar to those seen in our demos, however it will fail whith unseen states. 
 
-**Q2.3** ...
+This is due to covariate shift: sequential decision-making breaks the i.i.d. assumption because an agent's actions directly alter which states it visits next
+. When the agent makes small execution errors, its state distribution shifts away from the demonstration training dataset, drifting it into unobserved states where errors compound over time
 
+---
 ---
 
 ## Part 3: RL baseline without interventions
